@@ -15,6 +15,7 @@ The VPS uses the main host's public IPv4 and a unique SSH port per container.
 Run on the Linux host/VPS that has LXD:
 
 ```bash
+git clone https://github.com/atifqmi-max/lxc-vps-discord-bot
 sudo apt update
 sudo apt install -y python3 python3-venv python3-pip iptables iptables-persistent openssh-client
 ```
